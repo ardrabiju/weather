@@ -77,8 +77,9 @@ const result = document.getElementById('result'); // Assuming there's an element
 async function getData(lat, long) {
     try {
         const response = await fetch(
-            `http://api.weatherapi.com/v1/current.json?key=967b79616f4148bf973180351230312&q=${lat},${long}&aqi=yes`
-        );
+                `https://api.weatherapi.com/v1/current.json?key=967b79616f4148bf973180351230312&q=${lat},${long}&aqi=yes`
+            );
+        
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
