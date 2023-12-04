@@ -114,4 +114,8 @@ button.addEventListener('click', () => {
     navigator.geolocation.getCurrentPosition(gotLocation, failedToGet);
 });
 
+button.addEventListener('touchstart', async () => {
+    navigator.geolocation.getCurrentPosition(gotLocation, failedToGet);
+});
+
 
