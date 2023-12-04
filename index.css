@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Akaya+Kanadaka&family=Coiny&family=Croissant+One&family=DM+Serif+Display&family=Dancing+Script:wght@400;500;700&family=EB+Garamond&family=Fanwood+Text&family=Forum&family=Ibarra+Real+Nova&family=Lobster&family=Luckiest+Guy&family=Merriweather&family=Pacifico&family=Paytone+One&family=Playfair+Display&family=Righteous&family=Simonetta&family=Spectral:ital,wght@1,200;1,300&family=Vollkorn&family=Young+Serif&display=swap');
+
+
+body{
+    background-image: url('./images/bg51.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    
+}
+
+
+
+.a1{
+
+    height: 5px;
+    width: 100%;
+}
+.a2{
+
+    height: 5px;
+    width: 100%;
+}
+.a4{
+
+margin-top: 120px;
+    height: 5px;
+    width: 100%;
+}
+.a7{
+    display: flex;
+}
+
+.a6{
+    width: 300px;
+    border-radius: 10px;
+}
+.row{
+    max-width: 100%;
+}
+.a3{
+    margin-top: 90px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+span{
+    color: yellow;
+}
+.a7{
+    height: 120px;
+    /* border: 2px solid rgb(223, 223, 64); */
+}
+.a8{
+    height: 30px;
+    background-color: black;
+    color: rgb(124, 230, 212);
+    margin-left: 385px;
+    font-family:'Akaya Kanadaka';
+}
+.a9{
+    background-color: black;
+    margin-left:490px;
+    color: rgb(124, 230, 212);
+    font-family:'Akaya Kanadaka';
+
+}
+.a12{
+    height: 120px;
+    /* border: 2px solid rgb(223, 223, 64); */
+}
+
+.b1{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 50px;
+    
+}
+
+
+
+
+
+@media(max-width:600px){
+    .a1{
+        margin-left: -5px;
+     }
+     .a4{
+        margin-left: -7px;
+     }
+     .a9{
+
+        margin-left: 60px;
+        background-color: black;
+
+     }
+     .a8{
+        height: 55px;
+
+        background-color: black;
+        margin-left: 2px;
+        text-align: center;
+      
+     }
+}
