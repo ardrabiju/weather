@@ -2,13 +2,45 @@
 
 
 body{
-    background-image: url('./images/bg51.jpg');
+    background-image: linear-gradient(to bottom, #1a1818 0%, #6e9cc2 100%);      
+
+    /* background-image: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%); */
+
+    /* background-image: url('./images/bg51.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 900px; */
     
 }
 
+#result2{
+    text-align: center;
+}
+
+
+.d1{
+    height: 150px;
+    /* border: 2px solid yellow; */
+}
+.d2{
+    height: 150px;
+    /* border: 2px solid rgb(223, 223, 213); */
+}
+.d3{
+    height: 150px;
+    /* border: 2px solid rgb(14, 14, 11); */
+}
+
+.g1{
+    /* border: 2px solid orange; */
+    height: 100px;
+    margin-top: -100px;
+}
+
+.h7{
+    margin-left: 40px;
+    text-align: center;
+}
 
 
 .a1{
@@ -21,6 +53,9 @@ body{
     height: 5px;
     width: 100%;
 }
+
+
+
 .a4{
 
 margin-top: 120px;
@@ -32,30 +67,36 @@ margin-top: 120px;
 }
 
 .a6{
+    
+    font-family:'Akaya Kanadaka';
+    border: 1px solid rgba(0, 0, 0, 0.979);
+    background-color: rgba(5, 9, 9, 0.521);
     width: 300px;
-    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
 }
 .row{
     max-width: 100%;
 }
 .a3{
     margin-top: 90px;
-    color: white;
+    color: rgb(134, 232, 237);
     font-size: 35px;
     font-weight: bold;
 }
 span{
-    color: yellow;
+    color: rgb(220, 225, 216)
 }
 .a7{
     height: 120px;
     /* border: 2px solid rgb(223, 223, 64); */
 }
 .a8{
+
     height: 30px;
-    background-color: black;
+    text-align: center;
     color: rgb(124, 230, 212);
-    margin-left: 385px;
+    /* margin-left: 385px; */
     font-family:'Akaya Kanadaka';
 }
 .a9{
@@ -65,21 +106,76 @@ span{
     font-family:'Akaya Kanadaka';
 
 }
+
 .a12{
     height: 120px;
     /* border: 2px solid rgb(223, 223, 64); */
 }
-
-.b1{
+.z1{
+    border: 1px rgba(0, 0, 0, 0.847) solid;
+    background-color: #1a18187a;
     border-radius: 10px;
+    font-family:'Akaya Kanadaka';
+    color: rgba(255, 255, 255, 0.4);
+
+  
+}
+
+.c1{
     background-color: black;
-    color: white;
-    width: 220px;
+    margin-left:490px;
+    color: rgb(124, 230, 212);
+    font-family:'Akaya Kanadaka';
+    text-align: center;
+}
+/* .i1{
     height: 50px;
+} */
+
+.i1{
+    width: 28px;
+}
+.i2{
+    width: 42px;
+}
+.i3{
+    width: 40px;
+}
+.i4{
+    width: 55px;
+}
+.i5{
+    width: 55px;
+}
+.i7{
+    width: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.e1{
+    border-right: 1px solid black;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:'Akaya Kanadaka'; */
+}
+.e2{
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:'Akaya Kanadaka'; */
+}
+.k1{
+    font-size: 25px;
     
 }
 
-
+.l1{
+   
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
 
 
 
@@ -104,4 +200,8 @@ span{
         text-align: center;
       
      }
-}
+     .e1{
+        border-right: none;
+     }
+    }
+   

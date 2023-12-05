@@ -72,7 +72,7 @@
 
 
 const button = document.getElementById('getloc');
-const result = document.getElementById('result'); // Assuming there's an element with id 'result' in your HTML
+const result = document.getElementById('result6'); // Assuming there's an element with id 'result' in your HTML
 
 async function getData(lat, long) {
     try {
@@ -98,7 +98,7 @@ async function getData(lat, long) {
 async function gotLocation(position) {
     try {
         let temperature = await getData(position.coords.latitude, position.coords.longitude);
-        result.innerHTML = `
+        result6.innerHTML = `
             <h5 class="a8">Present atmospheric conditions at your current locale is  ${temperature}°C</h5>
         `;
     } catch (error) {
@@ -120,3 +120,15 @@ button.addEventListener('touchstart', async () => {
 });
 
 
+// function displayData(dataArray) {
+//     console.log(dataArray); // Add this line to log the API response to the console
+ 
+//     tempd = dataArray.main.temp;
+//     tempd -= 273.15;
+//     tempd = tempd.toFixed(2);
+ 
+//     result.innerHTML = `<div class="b12">
+//        <h5 class="a9">Temperature in ${place} is ${tempd}°C</h5>
+//     </div>`;
+//  }
+ 
